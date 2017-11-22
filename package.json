@@ -7,12 +7,10 @@
     "tools"
   ],
   "homepage": "http://github.com/react-component/rc-tools",
-  "author": {
-    "name": "yiminghe@gmail.com"
-  },
+  "author": "yiminghe@gmail.com",
   "repository": {
     "type": "git",
-    "url": "git@github.com:QuietWind/rc-tools.git"
+    "url": "git+ssh://git@github.com/QuietWind/rc-tools.git"
   },
   "bugs": {
     "url": "http://github.com/react-component/rc-tools/issues"
@@ -110,5 +108,10 @@
   },
   "pre-commit": [
     "precommit"
-  ]
+  ],
+  "main": "lib/cli/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "license": "ISC"
 }
